@@ -1,0 +1,163 @@
+/* VARIABLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Light-Cyan: hsl(179, 47%, 51%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    
+  }
+
+/* GENERAL */
+
+body {
+  font-size: 16px;
+  background-color: var(--Light-Gray);
+  font-family: 'Karla', Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+/* CONTAINER */
+
+#container {
+  margin: auto;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* HEADER */
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 35px;
+  align-self: center;
+}
+
+#header h1 {
+    color: var(--Light-Cyan);
+    margin: 0;
+}
+
+#header h2 {
+  color: var(--Bright-Yellow);
+}
+
+#header p {
+    color: var(--Grayish-Blue);
+}
+
+/* SUSCRIPTION */
+
+#suscription-section {
+    padding: 15px 35px;
+    background-color: var(--Cyan);
+    border-bottom-left-radius: 10px;
+}
+
+#suscription-section span {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+#suscription-section p:first-of-type {
+    color: hsl(180, 62%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#suscription-section a {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0px;
+    color: white;
+    background-color: var(--Bright-Yellow);
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 20%);
+    transition: all 0.1s ease-in-out;
+}
+
+#suscription-section a:hover {
+    transition: all 0.1s ease-in-out;
+    color: var(--Bright-Yellow);
+    background-color: white;
+}
+
+/* WHY SECTION */
+
+#why-section {
+    padding: 15px 35px;
+    background-color: var(--Light-Cyan);
+    border-bottom-right-radius: 10px;
+}
+
+#why-section ul {
+    list-style: none;
+    padding: 0;
+    color: var(--Light-Gray);
+}
+
+/* FOOTER */
+
+body footer {
+    justify-content: end;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  justify-content: end;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #container {
+      display: block;
+      margin: auto;
+      width: 90%;
+      font-size: 0.8rem;
+    }
+
+    #suscription-section {
+        border-bottom-left-radius: 0px;
+    }
+
+    #suscription-section p {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    #why-section {
+        border-radius: 0px 0px 10px 10px;
+    }
+  }
