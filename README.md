@@ -11,9 +11,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -67,6 +65,6 @@ One of the things that I want continue to develop is my abilities in CSS.
 
 ## Author
 
-- Website - [Benjamin](https://www.your-site.com)
+- Website - [Benjamin]((https://benjaminfrias.github.io/Single-Price-Grid-Web/))
 - Frontend Mentor - [@benjaminfrias](https://www.frontendmentor.io/profile/benjaminfrias)
 
